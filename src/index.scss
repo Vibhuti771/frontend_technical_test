@@ -1,0 +1,241 @@
+
+
+html, body {
+	width: 100%;
+	height: 100%;
+	font-size: 16px;
+}
+
+body {
+    background-color: white;
+}
+.bottomLang{
+
+	position: absolute;
+    right: 18px;
+}
+
+.langBtn{
+
+	border: 1px solid green;
+	background: white;
+	font-size: 13px;
+	width: 75px;
+	height: 28px;
+	color: purple;
+}
+.centeringData{
+
+
+	text-align: center;
+}
+.mainContent{
+	font-size:28px;
+   
+	  }
+	.smallContent{
+	   font-size:18px;
+		   
+		 }
+.mediumContent{
+		   font-size:20px;
+			   
+			 }
+.buttonClass{    
+width: 310px;
+
+border: 1px green solid;
+color: green;
+background: white;
+padding: 17px;
+border-radius: 5px;
+margin: 14px;
+
+}
+
+.buttonDiv{
+margin:auto;
+display: inline-block;
+}
+
+.repeatDivClass{
+	display:inline-block;
+	margin:auto;
+	
+}
+.marginTopMainDiv{
+
+	margin-top: 4vw;
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.rightSpan{
+
+	margin-right:5px;
+}
+.buttonClassA{    
+	width: 280px;
+	
+	border: 1px green solid;
+	color: green;
+	background: white;
+	padding: 8px;
+	
+	margin: 10px;
+	border: none;
+	font-size: 14px;
+	}
+
+@media screen and (max-width: 1024px){
+
+
+.buttonClassA{    
+		width: 280px;
+		border: 1px green solid;
+		color: green;
+		background: white;
+		padding: 8px;
+		
+		margin: 10px;
+		border: none;
+		font-size: 14px;
+		}
+
+.buttonClass{    
+	width: 280px;
+	
+	border: 1px green solid;
+	color: green;
+	background: white;
+	padding: 8px;
+	border-radius: 5px;
+	margin: 10px;
+	
+	}
+
+	.buttonClassA{    
+		width: 280px;
+		
+		border: 1px green solid;
+		color: green;
+		background: white;
+		padding: 8px;
+		
+		margin: 10px;
+		border: none;
+		font-size: 14px;
+		}
+
+	
+	.buttonDiv{
+	margin:auto;
+	display: inline-block;
+	}
+	
+	.repeatDivClass{
+		display:inline-block;
+		margin:auto;
+		
+	}
+	.marginTopMainDiv{
+	
+		margin-top: 4vw;
+	}
+	.col-centered{
+		float: none;
+		margin: 0 auto;
+	}
+  
+}
+
+
+@media (max-width: 600px)
+{
+
+	.buttonClassA{    
+		width: 280px;
+		border: 1px green solid;
+		color: green;
+		background: white;
+		padding: 8px;
+		
+		margin: 10px;
+		border: none;
+		font-size: 14px;
+		}
+
+	
+
+.buttonClass{    
+	width: 280px;
+	
+	border: 1px green solid;
+	color: green;
+	background: white;
+	padding: 8px;
+	border-radius: 5px;
+	margin: 10px;
+	
+	}
+
+	.buttonClassA{    
+		width: 280px;
+		
+		border: 1px green solid;
+		color: green;
+		background: white;
+		padding: 8px;
+		
+		margin: 10px;
+		border: none;
+		font-size: 14px;
+		}
+
+	
+	.buttonDiv{
+	margin:auto;
+	display: inline-block;
+	}
+	
+	.repeatDivClass{
+		display:inline-block;
+		margin:auto;
+		
+	}
+	.marginTopMainDiv{
+	
+		margin-top: 4vw;
+	}
+	.col-centered{
+		float: none;
+		margin: 0 auto;
+	}
+  .mainContent{
+ font-size:22px;
+
+   }
+   .smallContent{
+	font-size:13px;
+		
+	  }
+	  .mediumContent{
+		font-size:14px;
+			
+		  }
+}
+
+@media (max-width: 333px)
+{
+
+	.mediumContent{
+		font-size:12px;
+			
+		  }
+		  .smallContent{
+			font-size:11px;
+				
+			  }
+}

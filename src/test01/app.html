@@ -1,0 +1,107 @@
+<div class="container" ng-init="init()" ng-show="en">
+
+  <div class="row"> 
+
+  <p class="centeringData mainContent">{{data.txtEn[0].main}}</p>
+
+    <p class="centeringData smallContent">{{data.txtEn[1].small}}<p>
+
+  </div>
+
+
+
+<p class="centeringData mediumContent" >{{data.txtEn[2].medium}}</p>
+
+
+ 
+
+<div class="row marginTopMainDiv" >
+  
+  <div class="col-md-12 col-lg-8 centeringData col-centered" >
+
+<div   ng-repeat="p in data.en"  class="repeatDivClass">
+<button class="button  buttonClass" >
+  {{p.text}}
+</button>
+</div>
+
+  </div>
+
+
+</div>
+
+
+<div class="row marginTopMainDiv1 centeringData" >
+
+    <a href="/"><button class="button  buttonClassA" >
+        <span class="	fa fa-angle-left rightSpan "></span> Return to previous screen
+      </button>
+    </a>
+
+</div>
+
+
+<div class="bottomLang">
+
+    <button  class="fr langBtn" ng-click="langSetting(1)">French</button>
+</div>
+</div>
+
+
+<div class="container" ng-hide="en" >
+ 
+ 
+  <div class="row"> 
+        
+          <p class="centeringData mainContent">{{data.txtFr[0].main}}</p>
+        
+            <p class="centeringData smallContent">{{data.txtFr[1].small}}<p>
+        
+          </div>
+        
+        
+        
+        <p class="centeringData mediumContent" >{{data.txtFr[2].medium}}</p>
+        
+    
+    
+     
+    
+    <div class="row marginTopMainDiv" >
+      
+      <div class="col-md-12 col-lg-8 centeringData col-centered" >
+    
+    <div   ng-repeat="p in data.fr"  class="repeatDivClass">
+    <button class="button  buttonClass" >
+      {{p.text}}
+    </button>
+    </div>
+    
+      </div>
+    
+    
+    </div>
+    
+    
+    <div class="row marginTopMainDiv1 centeringData">
+    
+        <a href="/"><button class="button  buttonClassA" >
+            <span class="	fa fa-angle-left rightSpan "></span> Retour à l'écran précédent
+          </button>
+        </a>
+    
+    </div>
+    
+    <div class="bottomLang">
+        
+            <button  class="en langBtn" ng-click="langSetting(0)">English</button>
+        </div>
+
+
+    </div>
+
+    <div   ng-repeat="p in data.fr"  class="repeatDivClass">
+      <div buttonsDir><s/div>
+        </div>
+
+   

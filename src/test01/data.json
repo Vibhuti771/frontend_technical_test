@@ -1,0 +1,66 @@
+{"en":[  {
+		"text": "Open a chequing account"
+	},
+	{
+		"text": "Open a savings account"
+	},
+	{
+		"text": "Open a U.S. Dollar account"
+	},
+	{
+		"text": "Review my everyday banking needs"
+	},
+	{
+		"text": "Switch to TD"
+	},
+	{
+		"text": "Apply for Overdraft Protection"
+	}
+  ],
+  "txtEn":[
+
+	{
+		"main": "Book an Appointment"
+	},
+	{
+		"small": "Our Investing Topics"
+	},
+	{
+		"medium": "Pick a topic, and then we w'll find a time and place"
+	}
+  ],
+
+  "fr":[  {
+	"text": "Ouvrir un compte chequing"
+},
+{
+	"text": "Ouvrir un compte d'épargne"
+},
+{
+	"text": "Ouvrir un compte en dollars des États-Unis"
+},
+{
+	"text": "Examinez mes besoins bancaires quotidiens"
+},
+{
+	"text": "Passer à TD"
+},
+{
+	"text": "Demande de protection contre le découvert"
+}
+],
+"txtFr":[
+
+{
+	"main": "Prenez rendez-vous"
+},
+{
+	"small": "Nos sujets d'investissement"
+},
+{
+	"medium": "Choisissez un sujet, puis nous trouverons un moment et un lieu"
+}
+]
+
+
+}
